@@ -60,10 +60,10 @@
     </build>
     
     <scm>
-        <connection>scm:git:git@github.com:Pavithra-42/Building-a-CI-CD-Pipeline-with-Jenkins.git</connection>
-        <developerConnection>scmgit@github.com:Pavithra-42/Building-a-CI-CD-Pipeline-with-Jenkins.git</developerConnection>
+        <connection>scm:git:git@github.com:Pavithra-42/simple-java-maven-app.git</connection>
+        <developerConnection>scmgit@github.com:Pavithra-42/simple-java-maven-app.gitt</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/Pavithra-42/Building-a-CI-CD-Pipeline-with-Jenkins.git</url>
+        <url>https://github.com/Pavithra-42/simple-java-maven-app.git</url>
     </scm>
     
 </project>
