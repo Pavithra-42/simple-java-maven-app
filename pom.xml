@@ -30,7 +30,7 @@
         <!-- Spring Boot dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId> <!-- Use appropriate starter for web applications -->
         </dependency>
         
         <!-- Spring Boot Starter Test for testing -->
@@ -52,6 +52,9 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
+                        <configuration>
+                            <packaging>war</packaging> <!-- Ensure packaging is set to WAR -->
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
